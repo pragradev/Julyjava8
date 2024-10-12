@@ -19,18 +19,18 @@ public class Main {
 //        StreamCode sc = new StreamCode();
 //        sc.processTream();
 //
-        List<String> names = new ArrayList<>(Arrays.asList("Favour", "Favour", "Favour", "Vanshika", "Ayushi", "Meet", "Ashwini"));
-
-
-        names.stream().filter(n -> n.length() > 111).findAny()
-        Stream<String> nameStream = names.stream();
-        List<Integer> processedData = names
-                .stream()
-                .filter(n -> n.length() >= 6)
-                .sorted()
-                .distinct()
-                .map(n -> n.length())
-                .collect(Collectors.toList());
+//        List<String> names = new ArrayList<>(Arrays.asList("Favour", "Favour", "Favour", "Vanshika", "Ayushi", "Meet", "Ashwini"));
+//
+//
+//
+//        Stream<String> nameStream = names.stream();
+//        List<Integer> processedData = names
+//                .stream()
+//                .filter(n -> n.length() >= 6)
+//                .sorted()
+//                .distinct()
+//                .map(n -> n.length())
+//                .collect(Collectors.toList());
 //
 //
 //        List<Integer> grades = Arrays.asList(22,33,44,55,6,66,77,88,99,34,54,67,87,89);

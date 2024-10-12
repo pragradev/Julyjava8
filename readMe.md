@@ -66,6 +66,23 @@ Gradle
 ---------------
 Optional Class -> 
 
+---------------
+Testing
 
+Unit Testing --> Junit framework : Mockito (Mock) -> 
+Development stretegy
+TDD, DDD, BDD(Cucumber)
+
+Sonar (code quality)
+
+80 % - (2)
+- test coverage
+- function coverage
+
+Functional testing
+Regression testing
+integration testing
+smoke testing
+Performance testing
 
 
